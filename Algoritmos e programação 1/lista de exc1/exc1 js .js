@@ -3,7 +3,8 @@ let n2 = 4
 
 const resultado = n1+n2
 
-console.log(resultado)
+console.log("o seu resultado é " + resultado)
 
 
+ 
 
