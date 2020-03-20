@@ -5,7 +5,7 @@ int main () {
 
 int n1 , resultado ;
 
-printf("Bem vindo ao algoritmo de calculo de merda com acrescimo de 20 por cento\n");
+printf("Bem vindo ao algoritmo de calculo com acrescimo de 20 por cento\n");
 printf("Vamos la informe um numero qualquer\n");
 scanf("%d", &n1);
 
