@@ -32,5 +32,5 @@ int main () {
     } else if (media>=3.0 && media <6.0 ) {
         printf("\n Exame "); 
     }
-
+    
     }
