@@ -22,6 +22,15 @@ int main () {
     } else if (av1>av2) {
         media=(av1+optativa)/2;
          printf("\n A media ehh %.1f", media);
+    } 
+    
+    if (media>= 6.0) {
+        printf("\n Aprovado");
+
+    } else if (media<3.0) {
+        printf("\n Reprovado");
+    } else if (media>=3.0 && media <6.0 ) {
+        printf("\n Exame "); 
     }
 
     }
