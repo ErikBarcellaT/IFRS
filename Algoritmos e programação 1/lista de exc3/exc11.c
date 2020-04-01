@@ -20,6 +20,7 @@ int main () {
         break;
     case 5:
         printf("\n PENTAGONO "); 
+        break; 
     default : 
         printf("\n numeros de lados invalidos"); 
         break;
