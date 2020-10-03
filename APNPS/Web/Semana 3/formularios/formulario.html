@@ -7,10 +7,10 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-    <form action="/cadastro" method="post">
+    <form action="/cadastro" method="post"> <!--em todo formulario deve se passar a rota pelo atributo "action" para onde serão enviador os dados do formulario no backend, e o "method" get ou post -->
        <label>Nome:
-           <input type="text" name="nome" size="40" maxlength="40" placeholder="Digite Aqui seu nome" required autofocus > 
-        </label> <br/><br/> 
+           <input type="text" name="nome" size="40" maxlength="40" placeholder="Digite Aqui seu nome" required autofocus > <!--required= obrigatorio preenchimento ou escolha do campo-->
+        </label> <br/><br/>                                                                                                <!--autofocus= é o campo que já estara selecionado pelo browser tendo um "destaque"-->
         
         <label>Senha:
              <input type="password" name="password" id="" size="40" maxlength="40" placeholder="Digite Aqui sua Senha" required ><br/><br/> 
@@ -32,17 +32,36 @@
              <input type="file" name="file" >
         </label> <br/><br/>
         <label>Concordo com os termos:
-             <input type="checkbox" name="checkbox" required>
+             <input type="checkbox" name="checkbox" required> <!--type checkbox com a variavel name="checkbox" pode se selecionado varios-->
         </label> <br/>
         <label>Não Concordo com os termos:
              <input type="checkbox" name="checkbox" required>
          </label> <br/><br/>
 
          <label>Concordo com os termos:
-             <input type="radio" name="radio_concordo" value="Sim">
-         </label><br>
-         <label>Concordo com os termos:
-             <input type="radio" name="radio_concordo" value="Não">
+             <input type="radio" name="radio_termo1" value="Sim"> <!--type radio com a variavel name="radio_termo1" apenas uma das duas opções deve ser escolhida-->
+         </label><br>                                              <!--podendo ser criada mais de um grupo para escolhas, porem devera mudar o name para uma nova variavel que tambem recebe apenas um valor""-->
+         <label>Não concordo com os termos:
+             <input type="radio" name="radio_termo1" value="Não">
+        </label><br>
+
+        <label>Concordo com o 2° Termo:
+             <input type="radio" name="radio_termo2" value="Sim">
+        </label><br>
+        <label>Não concordo com o 2° Termo :
+             <input type="radio" name="radio_termo2" value="não">
+        </label><br> 
+
+        <label>Escolha um curso: 
+            <select name="curso"> 
+                <option disabled selected></option> <!--disabled= opção não pode ser escolhida, selected= mas ja deixa o campo em branco selecionado para não induzir o usuario a alguma escolha-->
+                <option>ADS</option>
+                <option>TPG</option>
+                <option>Lic. Mat.</option>
+                <option>Lic. Let.</option>
+                <option>EMI Infor</option>
+                <option>EMI ADM</option>
+            </select>
         </label>
 
 
