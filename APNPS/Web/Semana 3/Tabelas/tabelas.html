@@ -7,6 +7,97 @@
 </head>
 <body>
 
+    <table border="7px"> <!--table=iniciar a criação da tabela-->
+        <tr><td>L1C1</td><td>L1C2</td><td>L1C3</td></tr><!--tr=criar a linhas-->
+        <tr><td>L2C1</td><td>L2C2</td><td>L2C3</td></tr><!--td=criar coluna-->
+        <tr><td>L3C1</td><td>L3C2</td><td>L3C3</td></tr>
+
+    </table>
+
+    <br/><br/>
+
+    <table border="1px">
+        <caption>Estudantes IFRS Osório</caption>
+        <tr>
+            <th>Nome</th> <!--th=cabeçalho-->
+            <th>idade</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>ADS</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>21</td>
+            <td>TPG</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>19</td>
+            <td>Matematica</td>
+        </tr>
+    </table>
+    <br/>
+
+    <table border="1px"> <!--Mesclando celulas-->
+        <caption>Estudantes IFRS Osório</caption>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td rowspan="2">ADS</td><!--Atributo rowspan passando o valor 2 que faz a mesclagem de 2 COLUNAS em uma -->
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td colspan="2">19</td> <!--Atributo colspan passando o valor 2 que faz a mesclagem de 2 LINHAS em uma -->
+            
+        </tr>
+    </table>
+    <br/>
+    <table border="1px">
+        <caption>Estudantes IFRS Osório</caption>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>ADS</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>21</td>
+            <td>
+                <table border="1px">
+                    <tr>
+                        <td>a</td><td>b</td>
+                    </tr>
+                    <tr>
+                        <td>c</td><td>d</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>19</td>
+            <td>Matematica</td>
+        </tr>
+    </table>
+
+    
     
     
 </body>
