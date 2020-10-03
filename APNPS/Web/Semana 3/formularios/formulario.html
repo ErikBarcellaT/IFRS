@@ -8,15 +8,15 @@
 <body>
     <h1>Cadastro</h1>
     <form action="/cadastro" method="post"> <!--em todo formulario deve se passar a rota pelo atributo "action" para onde serão enviador os dados do formulario no backend, e o "method" get ou post -->
-       <label>Nome:
-           <input type="text" name="nome" size="40" maxlength="40" placeholder="Digite Aqui seu nome" required autofocus > <!--required= obrigatorio preenchimento ou escolha do campo-->
-        </label> <br/><br/>                                                                                                <!--autofocus= é o campo que já estara selecionado pelo browser tendo um "destaque"-->
+       <label>Nome:  <!--autofocus= é o campo que já estara selecionado pelo browser tendo um "destaque"-->
+           <input type="text" name="nome" size="40" maxlength="40" placeholder="Digite Aqui seu nome" required autofocus > 
+        </label> <br/><br/>                                                                                                
         
-        <label>Senha:
+        <label>Senha: <!--required= obrigatorio preenchimento ou escolha do campo-->
              <input type="password" name="password" id="" size="40" maxlength="40" placeholder="Digite Aqui sua Senha" required ><br/><br/> 
         </label><br/><br/> 
 
-         <label >Email: 
+         <label >Email: <!--maxlength= tamanho maximpo perimitido de caracteres-->
              <input type="email" name="email" id="" size="40" maxlength="40" placeholder="Digite Aqui seu email"required>
         </label><br/><br/> 
 
