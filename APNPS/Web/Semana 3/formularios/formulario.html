@@ -52,8 +52,8 @@
              <input type="radio" name="radio_termo2" value="não">
         </label><br> 
 
-        <label>Escolha um curso: 
-            <select name="curso"> 
+        <label>Escolha um curso: <!--simples-->
+            <select name="curso"> <!--select onde é possivel selecionar apenas uma opção-->
                 <option disabled selected></option> <!--disabled= opção não pode ser escolhida, selected= mas ja deixa o campo em branco selecionado para não induzir o usuario a alguma escolha-->
                 <option>ADS</option>
                 <option>TPG</option>
@@ -62,7 +62,22 @@
                 <option>EMI Infor</option>
                 <option>EMI ADM</option>
             </select>
+        </label><br><br>
+        <label>Escolha um curso: <!--multipla escolha-->
+            <select name="curso" multiple> <!--atributo multiple aplicado no select sendo possivel selecionar mais de uma opção-->
+                <option>ADS</option>
+                <option>TPG</option>
+                <option>Lic. Mat.</option>
+                <option>Lic. Let.</option>
+                <option>EMI Infor</option>
+                <option>EMI ADM</option>
+            </select>
+        </label><br><br>
+
+        <label>
+            <textarea name="sugestão" cols="30" rows="10"></textarea> <!--rows=numero de linhas e cols= quantidade de caracteres por linha-->
         </label>
+
 
 
        
