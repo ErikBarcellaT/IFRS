@@ -1,0 +1,82 @@
+li {
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+/*id*/
+#banana {
+    color: yellow;
+}
+
+#laranja {
+    color: orange;
+}
+
+#frutas_e_legumes {
+    border: 1px dashed lightgreen;
+
+}
+
+/*classes*/
+.verde {
+    color: green;
+}
+
+.background_cinza{
+    background-color: lightgrey;
+}
+
+/*asterisco*/
+* {
+    /*border: 1px solid lightgreen*/
+}
+
+/* seletor de descendencia*/
+li a {
+    color: red;
+}
+
+/* seletor adjacente*/
+h4 + ul {
+    border: 3px solid red;
+}
+
+/* seletor de atributo*/
+a[href="https://wwww.ifrs.edu.br"]{
+    background: blue;
+    color: white;
+}
+
+/* seletor de enesimo tipo*/
+
+/*li:nth-of-type(3){
+    background: #ffff00;
+}*/
+
+li:nth-of-type(even) {
+    background: #ffff00;
+}
+
+li:nth-of-type(odd) {
+    background: #17d42d;
+}
+
+/*seletor pseudoclasse*/
+li a:link{
+    color: black;
+}
+
+li a:hover{
+    color:#0714a3;
+    background: #85d0ff;
+}
+
+li a:visited{
+    color: grey;
+}
+
+li a:active{
+    color:white;
+}
