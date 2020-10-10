@@ -1,11 +1,25 @@
+body {
+    background: url(/img/background_dark_blurred_87441_1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 h1 {
-    color: blue;
+    color: rgba(38, 36, 179, 0.9); /* cores em rgba onde o a é a propriedade que define a transparencia*/
+    background: green;
 }
 
 h2 {
-    color: red;
+    color: #fff; /* hexadecimal*/
+    /*border-color: purple;
+    border-width: 2px;
+    border-style: solid;*/
+    border: 5px dashed purple;
 }
 
 p {
-    color: yellow;
+    color: rgb(62, 179, 36); /*cores em rgb(red,green,blue)*/
+    background: rgb(255, 100, 80);
+    
 }
