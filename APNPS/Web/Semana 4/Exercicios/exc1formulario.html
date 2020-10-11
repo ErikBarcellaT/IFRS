@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form action="/cadastro" method="post"> 
+       <label>Nome:  
+           <input type="text" name="nome" size="30" maxlength="30" placeholder="Digite seu nome" required > 
+        </label>
+        <label>Sobrenome:
+            <input type="text" name="sobrenome" size="40" maxlength="40" placeholder="Digite seu sobrenome" required>
+        </label><br>
+        <label>Masculino
+            <input type="radio" name="genero">
+        </label>                             
+        <label>Feminino
+            <input type="radio" name="genero">
+        </label><br>   
+        <label>Email:
+            <input type="email" name="email" placeholder="Digite seu email" required>
+        </label>
+        <label>Password:
+            <input type="password" name="password" placeholder="Digite seu password" minlength="5" maxlength="10">
+        </label><br>
+        <label>Aniversário:
+            <input type="date" name="date">
+        </label><br>    
+        <label>Concordo com os termos e condições:
+            <input type="checkbox" name="checkbox" required>
+        </label>                                                          
+    
+        <br>
+        <input type="submit" value="Enviar">
+        
+    </form>
+    
+</body>
+</html>
