@@ -6,3 +6,25 @@ p {
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/*font-size*/
+h1 {
+    /*font-size: 300%;*/
+    font-size: 3.0em;
+}
+#laboris{
+    font-size: 2.0em;
+}
+
+p{
+    font-size: 2.0em;
+}
+
+body{
+    font-size: 10px;
+}
+
+/* font-weight */
+p{
+    font-weight: bold;
+}
