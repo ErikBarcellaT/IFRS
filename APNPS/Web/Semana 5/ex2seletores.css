@@ -1,0 +1,15 @@
+p, div{
+    color: blue;
+}
+
+p.vermelho{
+    color: red;
+}
+
+.laranja{
+    color: orange;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
