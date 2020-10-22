@@ -3,3 +3,9 @@ div{
     border: 2px dashed blue;
     margin-bottom: 20px;
 }
+#primeira{
+    float: right;
+}
+img{
+    width: 40px;
+}
