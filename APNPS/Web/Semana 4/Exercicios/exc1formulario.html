@@ -8,24 +8,30 @@
 <body>
     <h1>Registro</h1>
     <form action="/cadastro" method="post"> 
-       <label>Nome:  
+        <div>
+            <label>Nome:  
            <input type="text" name="nome" size="30" maxlength="30" placeholder="Digite seu nome" required > 
-        </label>
-        <label>Sobrenome:
+            </label>
+            <label>Sobrenome:
             <input type="text" name="sobrenome" size="40" maxlength="40" placeholder="Digite seu sobrenome" required>
-        </label><br>
-        <label>Masculino
-            <input type="radio" name="genero">
-        </label>                             
-        <label>Feminino
-            <input type="radio" name="genero">
-        </label><br>   
-        <label>Email:
+            </label>
+        </div>
+        <div>
+            <label>Masculino
+            <input type="radio" name="genero" value="masculino">
+            </label>                             
+            <label>Feminino
+            <input type="radio" name="genero" value="feminino">
+            </label>
+        </div>
+        <div> 
+            <label>Email:
             <input type="email" name="email" placeholder="Digite seu email" required>
-        </label>
-        <label>Password:
+            </label>
+            <label>Password:
             <input type="password" name="password" placeholder="Digite seu password" minlength="5" maxlength="10">
-        </label><br>
+            </label>
+        </div>
         <label>Aniversário:
             <input type="date" name="date">
         </label><br>    
