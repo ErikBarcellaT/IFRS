@@ -27,4 +27,5 @@ p{
    /* margin-left: auto; /* o atributo auto centraliza o elemento 
     margin-right: auto; */
     margin: 20px auto;
+    text-align: center;
 }
