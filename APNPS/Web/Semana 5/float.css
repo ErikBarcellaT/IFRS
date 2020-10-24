@@ -2,10 +2,19 @@ div{
     width: 100px;
     border: 2px dashed blue;
     margin-bottom: 20px;
+    /* padding: 10px; */
 }
 #primeira{
     float: right;
 }
+
+#terceira{
+    width: 300px;
+}
+#terceira img{
+    float: left;
+}
 img{
     width: 40px;
+    margin-right: 5px;
 }
