@@ -1,5 +1,14 @@
 img{
     width: 30%;
- 
-   
+    padding: 1.6666666666%;
+    float: left;
+}
+p{
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 1.6666666666%;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    width: 96.666666%;
 }
