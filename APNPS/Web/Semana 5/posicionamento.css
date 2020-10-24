@@ -1,0 +1,44 @@
+/* static - tipo de posicionamento padrão */
+
+#absoluto1{
+    background-color: brown;
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+#absoluto2{
+    background-color: green;
+    position: absolute;
+    width: 300px;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+
+}
+#absoluto3{
+    background-color: orangered;
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+
+}
+
+#fixo{
+    position: fixed;
+    width: 300px;
+    background-color: #999;
+    top: 50px;
+    right: 0px;
+}
+
+#relativo{
+    position: relative;
+    left:50px;
+}
+
+
