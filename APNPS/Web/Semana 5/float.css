@@ -2,7 +2,7 @@ div{
     width: 100px;
     border: 2px dashed blue;
     margin-bottom: 20px;
-    /* padding: 10px; */
+    padding: 10px;
 }
 #primeira{
     float: right;
@@ -16,5 +16,9 @@ div{
 }
 img{
     width: 40px;
-    margin-right: 5px;
+     /* margin: 5px;  */
+     margin-right: 15px; 
+     margin-bottom: 10px; 
+    
+
 }
