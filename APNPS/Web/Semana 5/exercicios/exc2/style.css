@@ -1,0 +1,32 @@
+body{
+    border: 10px solid #bdc3c7;
+}
+
+.date{
+    color:#3a99dd;
+    padding: 10px;
+}
+
+.bloco1{
+    padding: 10px;
+    margin-top: -20px;
+    text-align: justify;
+}
+
+.img1{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.p1{
+    border-left: 4px solid #bdc3c7 ;
+    padding-left: 5px;
+
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #000000, transparent);  
+  }
