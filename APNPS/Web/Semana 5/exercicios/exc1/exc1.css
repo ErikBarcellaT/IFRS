@@ -11,7 +11,7 @@ td{
 
 table{
     margin: auto;
-    border-collapse: collapse;
+    border-collapse: collapse; /* esta propriedade tira a duplicidade da borda no caso deixa uma unica linha */
 }
 .vertical{
     border-left: 2px solid black;
