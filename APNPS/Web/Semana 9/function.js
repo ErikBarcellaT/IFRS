@@ -27,3 +27,30 @@ function maiuscula(str) {
 
 var cidade ="paris";
 var cidadeMaiuscula = maiuscula(cidade);
+
+/* fazendo checagem */
+
+
+function maiuscula(str) {
+    if (typeof str === "number") {
+        return "O valor recebido não é uma String"
+    }
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+var cidade ="paris";
+var cidadeMaiuscula = maiuscula(cidade);
+var num = 5;
+var cidadeFalsa= maiuscula(num); 
+
+/* variavel local  */
+var str= "texto"
+function teste () {
+    var s = "erik"; 
+    var str="text"
+    console.log(str);
+}
+
+function teste2 () {
+    console.log(str);
+}
