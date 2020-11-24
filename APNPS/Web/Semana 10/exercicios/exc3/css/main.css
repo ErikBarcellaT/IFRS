@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url('../img/padronizacao.jpg')
+}
+
+.header{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    height:150px;
+    box-shadow: #000 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.header img{
+    width: 12%;
+    float: left;
+    padding:10px 10px  ;
+}
+
+.header h1{
+  padding: 50px;
+  margin-left: 20%;
+}
+
+.corpo{
+   
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    height:150px;
+    box-shadow: #000 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.corpo h1{
+    border: 1px solid tomato
+}
+
+
