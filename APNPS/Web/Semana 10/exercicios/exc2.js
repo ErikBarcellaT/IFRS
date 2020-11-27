@@ -14,3 +14,8 @@ function getRandomColor() {
     }
     return color;
   }
+
+
+  function coreMulti(){
+    var r = math.floor(math.random()*256);
+  }
