@@ -13,34 +13,61 @@
         <h1>Loja do primeiro semestre do ADS</h1>
     </div>
     <div class="corpo">
-       <div class="dadosPessoais">
-        <p>Dados Pessoais</p>
-        <label>Nome:
-            <input type="text" name="name" id="name" placeholder="Digite seu nome" size="50">
-        </label><br><br>
-        <label>Email:
-            <input type="email" name="email" id="email" placeholder="Digite aqui seu email" size="50">
-        </label>
-       </div>
+        <div class="dadosPessoais">
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+               
+                    <label>Nome:
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome" size="45" autofocus required>
+                    </label><br><br>
+                    <label>Email:
+                        <input type="email" name="email" id="email" placeholder="Digite aqui seu email" size="45" required>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
        <div class="camisetas"> 
-        Quantidade de camisetas masculinas <input type="text" name="format" value="0" id="format" size="2" disabled/> 
-        <input type="button" name="mais" id="mais" class="mais" value="+" />
-        <input type="button" name="menos" id="menos" class="menos" value="-" /><br><br>
-        Quantidade de camisetas masculinas <input type="text" name="formatm" value="0" id="formatm" size="2" disabled /> 
-        <input type="button" name="maism" id="maism" value="+" />
-        <input type="button" name="menosm" id="menosm" value="-" />
-        <br /><br />
-        Total: <input type="text" name="total" id="total" value="" disabled />
-       </div>
+        
+               <fieldset>
+                   <legend>Camisetas</legend>
+                   <label>Quantidade de camisetas masculina: 
+                    <input type="number" id="camisetaMasculina" value="0" disabled>
+                    <button id="acrescenta">+</button>
+                    <button id="decrementa">-</button>
+                </label>
+                <br><br>
+                <label>Quantidade de camisetas femininas: 
+                    <input type="number" id="camisetaFeminina" value="0" disabled>
+                    <button id="acrescenta2">+</button>
+                    <button id="decrementa2">-</button>
+                </label>
+                <br /><br />
+                
+             </fieldset>
+         
+        </div>
        <div class="comentario">
-
+            <form>
+                <fieldset>
+                    <legend>Comentario</legend>
+                    
+                    <textarea name="" id="" cols="70" rows="7" placeholder="Escreva aqui caso deseje fazer algum comentario"></textarea>
+                </fieldset>
+            </form>
        </div>
     </div>
     <div class="footer">
-
-    </div>
-    <div class="footeFixed">
        
+            <p>Alunos ADS &copy;</p>
+            <p>Rua Santos Dumont, 2127 | Bairro Albatroz | CEP 95520-000 | Osório/RS</p>
+        
+    </div>
+    <div class="footerFixed">
+       <label>Total :
+       <input type="text" name="total" id="total" value="" disabled />
+       </label>
+       <button id="concluir">Concluir Compra</button>
     </div>
     <script src="../js/main.js"></script>
 </body>
