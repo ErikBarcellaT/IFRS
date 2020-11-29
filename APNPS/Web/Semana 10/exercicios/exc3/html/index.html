@@ -14,18 +14,21 @@
     </div>
     <div class="corpo">
         <div class="dadosPessoais">
-            <form>
+     
                 <fieldset>
                     <legend>Dados Pessoais</legend>
-               
-                    <label>Nome:
+                    <form id="validaNome">
+                    <label>Nome: 
                         <input type="text" name="name" id="name" placeholder="Digite seu nome" size="45" autofocus required>
                     </label><br><br>
+                    </form>
+                    <form id="validaEmail">
                     <label>Email:
                         <input type="email" name="email" id="email" placeholder="Digite aqui seu email" size="45" required>
                     </label>
+                    </form>
                 </fieldset>
-            </form>
+           
         </div>
        <div class="camisetas"> 
         
@@ -65,7 +68,7 @@
     </div>
     <div class="footerFixed">
        <label>Total :
-       <input type="text" name="total" id="total" value="" disabled />
+       <input type="text" name="total" id="total" value="0" disabled />
        </label>
        <button id="concluir">Concluir Compra</button>
     </div>
