@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+    color: purple;
+    margin-left: 20px;
+}
+
+ul li{
+    list-style: none;
+    padding: 2px;
+}
+
+button{
+    margin-bottom: 20px;
+}
