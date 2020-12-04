@@ -2,6 +2,7 @@
     background-color: black;
     color: purple;
     margin-left: 20px;
+ 
 }
 
 ul li{
@@ -9,6 +10,10 @@ ul li{
     padding: 2px;
 }
 
-button{
+#add{
     margin-bottom: 20px;
+}
+
+button{
+    font-size: 60%;
 }
