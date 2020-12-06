@@ -6,6 +6,8 @@ var camisetaMasculina = parseInt(document.getElementById("camisetaMasculina").va
 var camisetaFeminina= parseInt(document.getElementById("camisetaFeminina").value);
 var total=parseInt(document.getElementById("total").value);
 var concluir=document.querySelector("#concluir");
+document.getElementById("nome").addeEventListener("blur", validaNome);
+
 
 
 botaoMais.addEventListener("click", aumenta)
@@ -18,6 +20,13 @@ botaoMais2.addEventListener("click", totalizando)
 botaoMenos2.addEventListener("click", totalizando)
 concluir.addEventListener("click", compra)
 
+
+function validaNome(){
+  var nome= document.getElementById("nome").value;
+  if(nome.lenght<2){
+    
+  }
+}
 
 function aumenta(){
   parseInt(document.getElementById('camisetaMasculina').value=camisetaMasculina+=1);
