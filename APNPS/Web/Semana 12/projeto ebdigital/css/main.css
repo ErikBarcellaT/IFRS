@@ -1,0 +1,49 @@
+body{
+    background: rgb(50,124,218);
+    background: radial-gradient(circle, rgba(50,124,218,0.7455357142857143) 2%, rgba(26,205,22,0.19091386554621848) 100%);
+    padding: 40px;
+}
+
+#social img{
+    float: right;
+    width: 20px;
+    margin: 10px
+}
+
+#busca {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    width: 800px;
+    background-color: white;
+    border-radius:10px;
+    border: 1px solid grey;
+    height: 50px;
+    background-image:url(../img/pesquisa.svg);
+    background-size: 30px;
+    background-repeat:no-repeat; 
+    background-position:right;
+    margin-bottom: 20px;
+} 
+
+#paragrafo{
+    width: 30%;
+    margin-right: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 25px;
+    font-weight: Extra-bold 800 italic;
+}
+
+#textSenha{
+    width: 50%;
+    font-family: 'Castoro', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#imgCelular{
+    width: 50%;
+    float: right;
+    position: fixed;
+    margin-left: 50%;
+    
+}
