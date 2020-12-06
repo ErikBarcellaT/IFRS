@@ -5,9 +5,9 @@
  
 }
 
-ul li{
+li{
+    list-style-type: none;
     list-style: none;
-    padding: 2px;
 }
 
 #add{
@@ -17,3 +17,4 @@ ul li{
 button{
     font-size: 60%;
 }
+
