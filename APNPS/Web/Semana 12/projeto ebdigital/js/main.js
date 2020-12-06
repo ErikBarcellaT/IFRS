@@ -4,12 +4,12 @@ var newPassword = document.querySelector('#newPassword')
 function generatePass () {
     newPassword.innerHTML='';
    
-    if(pass.value===''){
+    if(pass.value==='0' || pass.value===''){
         alert('O tamanho da senha não pode ser igual a zero')
         return;
     } else if(pass.value <8) {
         alert('Não recomendamos uma senha com menos de 8 caracteres');
-        
+
     }
     var charset ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@*?#$";
     var password ="";
