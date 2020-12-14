@@ -1,0 +1,63 @@
+*{
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    width: 700px;
+    margin: 0 auto;
+}
+
+#header{
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#content{
+    margin-top: 20px;
+    border: 20px solid #555;
+    padding: 20px;
+}
+
+#soma{
+    margin-bottom: 20px;
+}
+
+#subtração{
+    margin-bottom: 20px;
+}
+
+#multiplicação{
+    margin-bottom: 20px;
+}
+
+#checarRespostas{
+    float: right;
+}
+
+#footer{
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#soma11{
+    margin-top: 5px;
+}
+
+#tentativa_primeira_soma{
+ margin-bottom: 10px;
+}
+
+#tentativa_primeira_subtração{
+    margin-bottom: 10px;
+}
+
+#tentativa_primeira_multiplicação{
+    margin-bottom: 10px;
+}
