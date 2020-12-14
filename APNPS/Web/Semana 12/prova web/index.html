@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Matematica</title>
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1><strong>APRENDENDO MATEMÁTICA</strong></h1>
+    </div>
+    <div id="content">
+        <p>Quais são as respostas para as operações abaixo?</p>
+        <div id="soma">
+            <fieldset>
+                <legend>Soma</legend>
+                <form>
+                <label>
+                    <span id="primeira_soma"></span>+<span id="segunda_soma"></span> = <input type="text" id="tentativa_primeira_soma"  size="3">
+                    <br>
+                    <span id="terceira_soma"></span>+<span id="quarta_soma"></span> = <input type="text" id="tentativa_segunda_soma" size="3">
+                </label>
+                </form>
+            </fieldset>
+        </div>    
+        <div id="subtração">
+            <fieldset>
+                <legend>Subtração</legend>
+                <form>
+                <label>
+                    <span id="primeira_subtração"></span>-<span id="segunda_subtração"></span> = <input type="text" id="tentativa_primeira_subtração"  size="3">
+                    <br>
+                    <span id="terceira_subtração"></span>-<span id="quarta_subtração"></span> = <input type="text" id="tentativa_segunda_subtração" size="3">
+                </label>
+                </form>
+            </fieldset>
+        </div>    
+        <div id="multiplicação">
+            <fieldset>
+                <legend>Multiplicação</legend>
+                <form>
+                <label>
+                    <span id="primeira_multiplicação"></span>*<span id="segunda_multiplicação"></span> = <input type="text" id="tentativa_primeira_multiplicação"  size="3">
+                    <br>
+                    <span id="terceira_multiplicação"></span>*<span id="quarta_multiplicação"></span> = <input type="text" id="tentativa_segunda_multiplicação" size="3">
+                </label>
+                </form>
+            </fieldset>
+        </div>   
+        <button id="jogarNovamente">Jogar Novamente</button>
+        <button id="checarRespostas">Checar Respostas</button> 
+    </div>
+    <div id="footer">
+        <p>Desenvolvido por: Erik Barcella Trisch</p>
+    </div>
+
+<script src="index.js"></script>    
+</body>
+</html>
